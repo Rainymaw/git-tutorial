@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form onclick="validerForm(e)" name = "formulaire-validation">
+    <form method="post" onsubmit="validerForm(event)" name ="form">
         <label>Nom</label>
-        <input type="text">
+        <input type="text" name="nom">
         <label>Prenom</label>
         <input type="text">
         <label>Password</label>
-        <input type="text">
+        <input type="password" name="password">
         <label>mail</label>
         <input type="email">
         <button type="submit">submit</button>
