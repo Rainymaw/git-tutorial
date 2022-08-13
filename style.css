@@ -1,9 +1,9 @@
 body{
-    background-color:blue;
+    background-color:rgb(154, 47, 47);
 }
 
 *{
-    color:white;
+    color:rgba(255, 255, 255, 0.345);
 }
 input{
     width:300px;
